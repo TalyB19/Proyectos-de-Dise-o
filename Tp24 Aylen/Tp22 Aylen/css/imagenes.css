@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(rgb(77, 73, 73), #0f0d0d);
+}
+.galeria{
+    width:100%;
+    margin-top: 100px;
+    text-align: center;
+}
+ 
+.galeria img{
+    vertical-align: top;
+    width: 250px;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid #706f6f;
+    transition:all 0.5s linear;
+	transition-delay:0.1s;
+  
+    
+}
+
+.galeria img:hover {
+    border: 1px solid #FFF;
+    opacity: 1;
+    filter: blur(1px);
+    transform: rotate(0.5deg) scale(1.1);
+    
+}
+

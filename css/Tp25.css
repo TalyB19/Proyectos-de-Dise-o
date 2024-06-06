@@ -1,0 +1,197 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+
+    background-image: url('../imagenes/3.jpg'); 
+	font-family: Arial, Sans-serif;
+}
+h3{
+	color: #226fc1;
+	font-family: initial;
+
+}
+.formulario {
+	background: rgb(235, 241, 245);
+	width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.formulario input {
+	display: block;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border:1px solid #226fc1;
+	font-size: 16px;
+	font-family: Arial;
+}
+.formulario input[type="radio"]{
+	padding: 20px;
+	margin-bottom: 20px;
+	display:inline-block;
+}
+.formulario textarea {
+	min-height: 200px;
+	max-height: 400px;
+	min-width: 100%;
+	max-width: 100%;
+}
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario textarea:focus {
+	border:2px solid #226fc1;
+}
+.rango{
+	background-color: white;
+	border: 1px solid#226fc1;
+	margin: 0 auto;
+	padding: 20px;
+	
+}
+.formulario .contenedor-inputs{
+	padding: 20px;
+	background: #fff;
+	border-radius:6px 6px 0 0;
+}
+.formulario .terminos {
+	margin-bottom: 20px;
+	text-align: center;
+	color: #424242;
+}
+
+.formulario .terminos label {
+	margin-left: 10px;
+}
+
+.content-select select{
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+	border: 0.5px solid #226fc1;;
+	/*border-color: #226fc1;*/
+	background:white;
+	color:#226fc1;
+	font-size: 1em;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border-radius: 10px;
+}
+
+.content-select select:hover{
+	background: rgb(193, 199, 219);
+}
+.sexo{
+	background-color: white;
+	border: 1px solid #226fc1;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.formulario .sexo {
+	display: flex;
+	flex-wrap:no-wrap;
+	justify-content:space-between;
+	margin-bottom: 20px;
+}
+.formulario .sexo .hombre {
+	border-radius: 3px 0 0 3px;
+}
+
+.formulario .sexo .mujer {
+	border-radius: 0 3px 3px 0;
+}
+
+.formulario .rango .rango1 {
+	border-radius: 0 3px 3px 0;
+}
+.formulario .sexo .label-radio {
+	width: 49.5%;
+}
+.formulario input[type="email"]:focus {
+	border-bottom: 2px solid #246eb9;
+}
+
+.formulario input[type="radio"]{
+	display: none;
+}
+
+.formulario .label-radio{
+	background: paleturquoise;
+	color: #fff;
+	padding:10px 10px;
+	text-align: center;
+}
+
+.formulario input[type="radio"]:checked + .label-radio{
+	background: #226fc1;
+	color: paleturquoise;
+}
+
+.formulario input[type="submit"] {
+	width: 200px;
+	margin: 0 auto;
+	padding: 10px;
+	border:1px solid #226fc1;
+	color:#226fc1;
+	background: none;
+	cursor: pointer;
+	border-radius: 3px;
+	font-size: 16px;
+}
+
+.formulario input[type="reset"] {
+	width: 200px;
+	margin: 0 auto;
+	padding: 10px;
+	border:1px solid #226fc1;
+	color: #226fc1;
+	background: none;
+	cursor: pointer;
+	border-radius: 3px;
+	font-size: 16px;
+}
+
+.formulario .error {
+	display: none;
+	margin-top: 20px;
+	border-radius: 3px;
+	background: #ce1818;
+	color: #fff;
+	padding: 15px 10px;
+	padding-left: 40px;
+}
+
+.formulario .btn {
+	width: 100%;
+	text-align: center;
+	background:  #226fc1;
+	color: #fff;
+	border: none;
+	display: block;
+	padding: 15px 10px;
+	cursor: pointer;
+	border-radius: 0 0 6px 6px;
+	font-size: 18px;
+}
+
+.formulario .btn:hover {
+	background:  #226fc1;
+	color: white;
+}
+.formulario input[type="reset"]:hover {
+	background: #226fc1;
+	color: #fff;
+}

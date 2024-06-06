@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+	<link rel="stylesheet" href="css/Tp25.css">
+</head>
+<body>
+	<div class="contenedor">
+		<form action="" class="formulario" id="formulario" name="formulario">
+			<div class="contenedor-inputs">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+                <input type="text" name="numdni" id="numdni" placeholder="DNI">
+                <input type="email" name="correo" id="correo" placeholder="Correo">
+            
+                <br>
+                <div class="rango">
+                <h3>Rango de edad:</h3>
+                <br>
+                <input type="radio" name="rango1" id="rango1" value="rango1">
+                <label for="rango1" class="label-radio rango1"> 1 - 15 años</label>
+                <input type="radio" name="rango2" id="rango2" value="rango2">
+                <label for="rango2" class="label-radio rango2"> 16 - 30 años</label>
+                <input type="radio" name="rango3" id="rango3" value="rango3">
+                <label for="rango3" class="label-radio rango3"> 31 - 60 años</label>
+
+                </div>
+                <br>
+                <div class="content-select">
+                    <select name="localidad" id="localidad">
+                        <option value="0">seleccione Ciudad</option>
+                        <option value="Bahia Blanca">Bahia Blanca</option>
+                        <option value="Buenos Aires">Buenos Aires</option>
+                        <option value="Mar del plata">Mar del plata</option>
+                        <option value="Olavarria">Olavarria</option>
+                        <option value="Pigue">Pigüé</option>
+                        <option value="Tandil">Tandil</option>
+                        <option value="Tornquist">Tornquist</option>
+                        <option value="Tres Arroyos">Tres Arroyos</option>
+                    </select>
+                </div>
+                <br>
+                <div class="sexo">
+                    <input type="radio" name="sexo" id="hombre" value="hombre">
+                    <label for="hombre" class="label-radio hombre">Hombre</label>
+                    <br>
+                    <input type="radio" name="sexo" id="mujer" value="mujer">
+                    <label for="mujer" class="label-radio mujer">Mujer</label>
+                </div>
+
+                <input type="text" name="asunto" id="asunto" placeholder="Asunto">
+		        <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+
+                <div class="terminos">
+                    <input type="checkbox" name="terminos" id="terminos">
+                    <label for="terminos">Acepto Terminos y Condiciones</label>
+                </div>
+                <ul class="error" id="error"></ul>
+            </div>
+        <input type="submit" class="btn" value="Registrarse">
+        <br>
+        <input type="reset">
+	</form>
+</div>
+<script src="formulario.js"></script>
+</body>
+</html>
